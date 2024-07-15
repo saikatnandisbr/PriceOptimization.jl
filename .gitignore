@@ -1,2 +1,4 @@
 /Manifest.toml
-/src/scractchpad/*
+/src/scratchpad/*
+/src/eda/retailer/*
+/data/retailer/*
