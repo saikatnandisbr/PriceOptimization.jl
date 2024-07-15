@@ -1,0 +1,79 @@
+invoice_week,category_id,invoice_amount,invoice_quantity,unit_price,category_uid
+201901,Health and beauty,3543.42,65,54.51,1
+201910,Electronic accessories,2491.68,60,41.53,2
+201909,Home and lifestyle,4165.24,66,63.11,3
+201904,Health and beauty,6396.390000000001,98,65.27,1
+201906,Sports and travel,3047.65,53,57.5,4
+201913,Electronic accessories,3888.8500000000004,68,57.19,2
+201909,Electronic accessories,6688.33,110,60.8,2
+201908,Home and lifestyle,1831.7,33,55.51,3
+201902,Health and beauty,570.6099999999999,14,40.76,1
+201908,Food and beverages,3681.7200000000003,59,62.4,5
+201906,Fashion accessories,6015.93,94,64.0,6
+201907,Electronic accessories,3600.34,68,52.95,2
+201906,Food and beverages,3277.57,80,40.97,5
+201913,Health and beauty,5466.66,94,58.16,1
+201903,Sports and travel,5682.719999999998,88,64.58,4
+201911,Health and beauty,3576.9600000000005,86,41.59,1
+201901,Sports and travel,2158.8900000000003,50,43.18,4
+201904,Food and beverages,4659.399999999999,78,59.74,5
+201911,Home and lifestyle,3490.56,80,43.63,3
+201910,Health and beauty,5457.12,101,54.03,1
+201909,Sports and travel,2869.74,43,66.74,4
+201912,Home and lifestyle,6600.0,106,62.26,3
+201910,Fashion accessories,4012.95,71,56.52,6
+201909,Fashion accessories,4669.989999999999,77,60.65,6
+201905,Sports and travel,5290.42,103,51.36,4
+201902,Sports and travel,5354.530000000001,94,56.96,4
+201910,Sports and travel,4928.259999999999,88,56.0,4
+201903,Electronic accessories,3124.38,66,47.34,2
+201912,Health and beauty,1330.77,24,55.45,1
+201903,Home and lifestyle,7213.639999999999,111,64.99,3
+201905,Home and lifestyle,3773.95,51,74.0,3
+201910,Food and beverages,4708.2300000000005,79,59.6,5
+201909,Health and beauty,4770.62,85,56.12,1
+201906,Electronic accessories,4855.48,98,49.55,2
+201912,Fashion accessories,4228.709999999999,68,62.19,6
+201905,Food and beverages,5635.22,99,56.92,5
+201904,Fashion accessories,3846.37,74,51.98,6
+201910,Home and lifestyle,5467.32,97,56.36,3
+201913,Home and lifestyle,623.07,20,31.15,3
+201906,Health and beauty,4863.9800000000005,92,52.87,1
+201911,Electronic accessories,3034.9199999999996,62,48.95,2
+201907,Sports and travel,3699.9799999999996,65,56.92,4
+201907,Health and beauty,3501.5399999999995,62,56.48,1
+201902,Fashion accessories,5314.82,100,53.15,6
+201904,Sports and travel,4535.11,82,55.31,4
+201905,Health and beauty,2781.23,40,69.53,1
+201901,Food and beverages,2435.92,40,60.9,5
+201907,Fashion accessories,5305.310000000001,80,66.32,6
+201904,Home and lifestyle,4569.389999999999,80,57.12,3
+201902,Electronic accessories,4030.67,61,66.08,2
+201913,Fashion accessories,2178.6800000000003,37,58.88,6
+201913,Food and beverages,3354.32,68,49.33,5
+201912,Food and beverages,2181.02,40,54.53,5
+201905,Electronic accessories,4720.15,110,42.91,2
+201901,Fashion accessories,2554.66,46,55.54,6
+201912,Sports and travel,4863.950000000001,95,51.2,4
+201903,Fashion accessories,3496.5699999999997,64,54.63,6
+201902,Food and beverages,4318.639999999999,89,48.52,5
+201908,Fashion accessories,2471.2400000000002,44,56.16,6
+201911,Sports and travel,5915.769999999999,89,66.47,4
+201905,Fashion accessories,4808.98,81,59.37,6
+201901,Electronic accessories,2778.14,41,67.76,2
+201913,Sports and travel,1515.0900000000001,21,72.15,4
+201903,Food and beverages,5169.28,90,57.44,5
+201911,Food and beverages,4013.93,64,62.72,5
+201909,Food and beverages,4664.38,84,55.53,5
+201906,Home and lifestyle,3750.6600000000003,89,42.14,3
+201907,Home and lifestyle,2867.46,42,68.27,3
+201912,Electronic accessories,4719.93,72,65.55,2
+201907,Food and beverages,5371.65,82,65.51,5
+201904,Electronic accessories,3885.61,77,50.46,2
+201908,Electronic accessories,3931.5499999999993,78,50.4,2
+201901,Home and lifestyle,3236.9600000000005,63,51.38,3
+201911,Fashion accessories,2815.69,66,42.66,6
+201902,Home and lifestyle,3707.11,73,50.78,3
+201908,Health and beauty,1951.4599999999998,51,38.26,1
+201903,Health and beauty,2640.42,42,62.87,1
+201908,Sports and travel,2635.82,49,53.79,4

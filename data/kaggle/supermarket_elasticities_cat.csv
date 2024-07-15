@@ -1,0 +1,7 @@
+category_uid,category_name,intercept,slope,invoice_week,invoice_quantity,unit_price,invoice_quantity_pred
+1,Health and beauty,70.4868,-0.0359,201913,94,58.16,68.0
+2,Electronic accessories,72.9507,-0.0114,201913,68,57.19,72.0
+3,Home and lifestyle,71.4447,-0.0174,201913,20,31.15,71.0
+4,Sports and travel,72.1856,-0.0334,201913,21,72.15,70.0
+5,Food and beverages,72.4305,-0.0149,201913,68,49.33,72.0
+6,Fashion accessories,71.5308,-0.0224,201913,37,58.88,70.0
