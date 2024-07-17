@@ -9,7 +9,7 @@ df_sales_weekly = CSV.File("data/kaggle/supermarket_weekly.csv") |> DataFrame
 cat_map = Dict(id => cat for (cat, id) in eachrow(df_sales_weekly[:, [:category_id, :category_uid]] |> unique))
 
 # parameter estimates from price elasticity model
-df_params = CSV.File("data/kaggle/supermarket_summaries.csv") |> DataFrame
+df_params = CSV.File("data/kaggle/supermarket_hb_param_summaries.csv") |> DataFrame
 
 df_params_global = @pipe df_params |> 
    select(_, :parameters, :mean) |>
@@ -51,5 +51,3 @@ df_params_cat.invoice_quantity_pred = @. round(df_params_cat.intercept + df_para
 # save output
 select!(df_params_cat, Not(r"α", r"β"))
 CSV.write("data/kaggle/supermarket_elasticities_cat.csv", df_params_cat)
-
-
