@@ -15,8 +15,9 @@ using Ipopt
 mutable struct PriceOptim
 
     # optimization solution
-    objVal::Float64
-    ΔP::Vector{Float64}
+    ΔR::Float64                 # change in revenue
+    ΔGP::Float64                # change in GP
+    ΔP::Vector{Float64}         # vector of price changes
 
     # coefficients of LP formulation
     E::Vector{Float64}          # elsticities - coefficients of quadratic term in objective function
@@ -34,7 +35,8 @@ mutable struct PriceOptim
     function PriceOptim()
         self = new()
 
-        self.objVal = 0.0
+        self.ΔR = 0.0
+        self.ΔGP = 0.0
 
         return self
     end
@@ -83,7 +85,7 @@ Find optimal solution.
 optimObj:       PriceOptim object
 """
 
-function solve_optim(optimObj::PriceOptim)
+function solve_optim(optimObj::PriceOptim; ΔGP_min::Float64)
 
     # set up model object
     m = Model(Ipopt.Optimizer)                      # model object
@@ -99,13 +101,14 @@ function solve_optim(optimObj::PriceOptim)
     @constraint(m, optimObj.A * x .<= optimObj.B)   
 
     # constraint to preserve GP
-    @constraint(m, x' * Diagonal(optimObj.E) * x  +  dot(x,  optimObj.QPECE) >= 0)
+    @constraint(m, c_gp, x' * Diagonal(optimObj.E) * x  +  dot(x,  optimObj.QPECE) >= ΔGP_min)
 
     # solve
     JuMP.optimize!(m)
 
     # solution
-    optimObj.objVal = JuMP.objective_value(m)
+    optimObj.ΔR = JuMP.objective_value(m)
+    optimObj.ΔGP = JuMP.value(c_gp)
     optimObj.ΔP = JuMP.value.(x)
 
 end
