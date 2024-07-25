@@ -12,6 +12,7 @@ optimObj = PriceOptimization.PriceOptim()         # call default constructor
 # prepare optimization model coefficients
 df = CSV.File("data/kaggle/supermarket_elasticities_cat.csv") |> DataFrame
 
+# adjust elasticities so that optimization solution is useful for illustration of price optimization
 E = 100 .* df.slope                                     # elasticity
 P = df.unit_price                                       # price
 C = round.(P .* rand(0.6:0.8, length(E)), digits=2)     # assign cost to be in range of price
